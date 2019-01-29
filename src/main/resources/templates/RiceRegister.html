@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hello Thymeleaf!</title>
+</head>
+<body>
+<p th:text="'Hello, ' + ${message} + '!'" />
+
+
+<form action="./insertRice" method="post">
+
+    Enter Rice Id   : <input type="text" class="form-control" name="riceId"/>
+
+    Enter Rice Name : <input type="text" class="form-control" name="riceName"/>
+
+    <input type="submit" value="register"/>
+
+
+</form>
+
+</body>
+</html>
+
